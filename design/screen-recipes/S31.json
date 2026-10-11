@@ -1,0 +1,135 @@
+{
+  "screen_id": "S31",
+  "name": "S31 Fashion v2 — Xác nhận demo",
+  "root": {
+    "width": 1440,
+    "height": 900,
+    "x": 8800,
+    "y": 0,
+    "fill": "bg",
+    "layout": "NONE"
+  },
+  "nodes": [
+    {
+      "semantic_id": "success.brand",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/success.brand",
+      "text": "NÉT",
+      "layout": {
+        "x": 72,
+        "y": 48
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "success.kicker",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/muted/success.kicker",
+      "text": "XÁC NHẬN DEMO",
+      "layout": {
+        "x": 360,
+        "y": 272
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "success.title",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/success.title",
+      "text": "Hẹn gặp bạn cùng NÉT.",
+      "layout": {
+        "x": 360,
+        "y": 328
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "success.body",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/success.body",
+      "text": "Bạn đã hoàn thành luồng đặt lịch thử nghiệm.\nChưa có lịch hẹn thực tế hay dữ liệu được gửi.\nNhấn bên dưới để quay lại bộ sưu tập.",
+      "layout": {
+        "x": 360,
+        "y": 416
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "success.home",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/success.home",
+      "layout": {
+        "x": 360,
+        "y": 536,
+        "width": 272,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:204",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "success.home.label",
+      "type": "TEXT",
+      "parent": "success.home",
+      "name": "text/on_primary/success.home.label",
+      "text": "Quay lại trang chủ",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    }
+  ]
+}

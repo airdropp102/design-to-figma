@@ -1,0 +1,350 @@
+{
+  "screen_id": "S30",
+  "name": "S30 Fashion v2 — Đặt lịch demo",
+  "root": {
+    "width": 640,
+    "height": 720,
+    "x": 8000,
+    "y": 0,
+    "fill": "bg",
+    "layout": "NONE"
+  },
+  "nodes": [
+    {
+      "semantic_id": "booking.kicker",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/muted/booking.kicker",
+      "text": "TƯ VẤN CÙNG NÉT",
+      "layout": {
+        "x": 48,
+        "y": 40
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking.title",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/booking.title",
+      "text": "Hẹn một dáng riêng",
+      "layout": {
+        "x": 48,
+        "y": 88
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking.note",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/muted/booking.note",
+      "text": "Dữ liệu mẫu để thử luồng. Không gửi thông tin thật.",
+      "layout": {
+        "x": 48,
+        "y": 152
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "field.0.label",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/field.0.label",
+      "text": "Họ tên",
+      "layout": {
+        "x": 48,
+        "y": 208
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "field.0",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/field.0",
+      "layout": {
+        "x": 48,
+        "y": 240,
+        "width": 544,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      }
+    },
+    {
+      "semantic_id": "field.0.value",
+      "type": "TEXT",
+      "parent": "field.0",
+      "name": "text/text/field.0.value",
+      "text": "Khách trải nghiệm",
+      "layout": {
+        "x": 16,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "field.1.label",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/field.1.label",
+      "text": "Liên hệ",
+      "layout": {
+        "x": 48,
+        "y": 320
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "field.1",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/field.1",
+      "layout": {
+        "x": 48,
+        "y": 352,
+        "width": 544,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      }
+    },
+    {
+      "semantic_id": "field.1.value",
+      "type": "TEXT",
+      "parent": "field.1",
+      "name": "text/text/field.1.value",
+      "text": "Thông tin liên hệ mẫu",
+      "layout": {
+        "x": 16,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "field.2.label",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/field.2.label",
+      "text": "Thời gian",
+      "layout": {
+        "x": 48,
+        "y": 432
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "field.2",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/field.2",
+      "layout": {
+        "x": 48,
+        "y": 464,
+        "width": 544,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      }
+    },
+    {
+      "semantic_id": "field.2.value",
+      "type": "TEXT",
+      "parent": "field.2",
+      "name": "text/text/field.2.value",
+      "text": "Chọn lịch trong buổi tư vấn",
+      "layout": {
+        "x": 16,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking.submit",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/booking.submit",
+      "layout": {
+        "x": 48,
+        "y": 584,
+        "width": 336,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:328",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "booking.submit.label",
+      "type": "TEXT",
+      "parent": "booking.submit",
+      "name": "text/on_primary/booking.submit.label",
+      "text": "Xem xác nhận đặt lịch demo",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "booking.close",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/booking.close",
+      "layout": {
+        "x": 408,
+        "y": 584,
+        "width": 184,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "CLOSE",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "booking.close.label",
+      "type": "TEXT",
+      "parent": "booking.close",
+      "name": "text/text/booking.close.label",
+      "text": "Đóng",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "booking.disclosure",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/muted/booking.disclosure",
+      "text": "Form prototype: không nhập liệu, không gửi dữ liệu.",
+      "layout": {
+        "x": 48,
+        "y": 664
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    }
+  ]
+}

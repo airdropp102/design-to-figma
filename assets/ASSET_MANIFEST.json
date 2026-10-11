@@ -1,0 +1,264 @@
+{
+  "capabilities": {
+    "png_fill": true,
+    "svg_fill": null,
+    "checked_at": "2026-10-11",
+    "evidence": "set_image_fill IMAGE FIT on 69:203, verified get_nodes_info and export PNG"
+  },
+  "icons": {},
+  "images": {
+    "net-aodai-campaign-v1": {
+      "file": "assets/images/net-aodai-campaign-v1.png",
+      "scale": 1,
+      "width": 1536,
+      "height": 1024,
+      "fill_mode": "FILL",
+      "license": "AI-generated concept; prototype use only; not verified product photography",
+      "source": "Built-in image_gen; generated 2026-10-11 for this user request",
+      "ai_generated": true,
+      "description": "Ivory Vietnamese ao dai campaign concept, full-length adult model, grey architectural studio",
+      "prompt_reference": "design/IMAGE_PROMPTS.md#campaign"
+    },
+    "net-fashion-v2-preview": {
+      "file": "assets/images/net-fashion-v2-preview.png",
+      "scale": 1,
+      "width": 809,
+      "height": 1942,
+      "fill_mode": "FILL",
+      "license": "AI-generated static prototype concept; not product photography",
+      "source": "Built-in image_gen, user-authorized concept",
+      "ai_generated": true
+    },
+    "net-aodai-blush-v1": {
+      "file": "assets/images/net-aodai-blush-v1.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FILL",
+      "license": "AI-generated concept, prototype use only; not real product photography",
+      "source": "Built-in image_gen; user authorized generated ao dai prototype assets 2026-10-11",
+      "ai_generated": true,
+      "prompt_reference": "design/IMAGE_PROMPTS.md#editable-prototype-assets"
+    },
+    "net-aodai-linen-v1": {
+      "file": "assets/images/net-aodai-linen-v1.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FILL",
+      "license": "AI-generated concept, prototype use only; not real product photography",
+      "source": "Built-in image_gen; user authorized generated ao dai prototype assets 2026-10-11",
+      "ai_generated": true,
+      "prompt_reference": "design/IMAGE_PROMPTS.md#editable-prototype-assets"
+    },
+    "net-aodai-sage-v1": {
+      "file": "assets/images/net-aodai-sage-v1.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FILL",
+      "license": "AI-generated concept, prototype use only; not real product photography",
+      "source": "Built-in image_gen; user authorized generated ao dai prototype assets 2026-10-11",
+      "ai_generated": true,
+      "prompt_reference": "design/IMAGE_PROMPTS.md#editable-prototype-assets"
+    },
+    "net-aodai-wine-v1": {
+      "file": "assets/images/net-aodai-wine-v1.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FILL",
+      "license": "AI-generated concept, prototype use only; not real product photography",
+      "source": "Built-in image_gen; user authorized generated ao dai prototype assets 2026-10-11",
+      "ai_generated": true,
+      "prompt_reference": "design/IMAGE_PROMPTS.md#editable-prototype-assets"
+    },
+    "net-silk-texture-v1": {
+      "file": "assets/images/net-silk-texture-v1.png",
+      "scale": 1,
+      "width": 1672,
+      "height": 941,
+      "fill_mode": "FILL",
+      "license": "AI-generated concept, prototype use only; not real product photography",
+      "source": "Built-in image_gen; user authorized generated ao dai prototype assets 2026-10-11",
+      "ai_generated": true,
+      "prompt_reference": "design/IMAGE_PROMPTS.md#editable-prototype-assets"
+    },
+    "an-nhien-sage-000": {
+      "file": "assets/images/an-nhien-sage-000.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-045": {
+      "file": "assets/images/an-nhien-sage-045.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-090": {
+      "file": "assets/images/an-nhien-sage-090.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-135": {
+      "file": "assets/images/an-nhien-sage-135.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-180": {
+      "file": "assets/images/an-nhien-sage-180.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-225": {
+      "file": "assets/images/an-nhien-sage-225.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-270": {
+      "file": "assets/images/an-nhien-sage-270.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-sage-315": {
+      "file": "assets/images/an-nhien-sage-315.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-000": {
+      "file": "assets/images/an-nhien-ivory-000.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-045": {
+      "file": "assets/images/an-nhien-ivory-045.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-090": {
+      "file": "assets/images/an-nhien-ivory-090.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-135": {
+      "file": "assets/images/an-nhien-ivory-135.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-180": {
+      "file": "assets/images/an-nhien-ivory-180.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-225": {
+      "file": "assets/images/an-nhien-ivory-225.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-270": {
+      "file": "assets/images/an-nhien-ivory-270.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    },
+    "an-nhien-ivory-315": {
+      "file": "assets/images/an-nhien-ivory-315.png",
+      "scale": 1,
+      "width": 1024,
+      "height": 1536,
+      "fill_mode": "FIT",
+      "license": "AI-generated concept; prototype use only; inferred hidden garment detail, not verified photography",
+      "source": "Built-in image_gen, user-authorized An Nhiên 2 colors × 8 angles",
+      "ai_generated": true,
+      "prompt_reference": "design/ROTATION_PROTOTYPE.md"
+    }
+  }
+}

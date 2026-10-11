@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "run_id": "run-c52ba6489dae",
+  "runtime": "codex",
+  "spec_path": "/Users/thuannv/Desktop/figma-design-agent/specs/APP_SPEC.md",
+  "spec_sha256": "bd46d279737485807eb70873ec69582329ae3606a5968e8165d040f66177a32e",
+  "phase": "DESIGN_EXECUTION",
+  "phase_attempt": 1,
+  "status": "running",
+  "approval": {
+    "approved_by": "interactive_user",
+    "interaction_ref": "interactive_user:2026-10-11-duyet-brief-f6c977898463abe2a0094ea2f2361cbb4a5019ec4aa14b03c81813a0dea7967c",
+    "spec_sha256": "bd46d279737485807eb70873ec69582329ae3606a5968e8165d040f66177a32e",
+    "brief_sha256": "f6c977898463abe2a0094ea2f2361cbb4a5019ec4aa14b03c81813a0dea7967c",
+    "run_id": "run-c52ba6489dae",
+    "approved_at": "2026-10-11T04:14:48.370972+00:00"
+  },
+  "artifacts": {
+    "brainstorm": {
+      "path": "design/BRAINSTORM.md",
+      "sha256": "f6c977898463abe2a0094ea2f2361cbb4a5019ec4aa14b03c81813a0dea7967c"
+    }
+  },
+  "checkpoints": [
+    {
+      "event": "environment_ready",
+      "at": "2026-10-11T03:38:58.713126+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/environment-evidence.json"
+    },
+    {
+      "event": "spec_valid",
+      "at": "2026-10-11T03:39:39.635505+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/spec-evidence.json"
+    },
+    {
+      "event": "brainstorm_drafted",
+      "at": "2026-10-11T03:39:40.655922+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/brainstorm-evidence.json"
+    },
+    {
+      "event": "approved",
+      "at": "2026-10-11T04:14:48.374032+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/approval-evidence.json"
+    },
+    {
+      "event": "plan_ready",
+      "at": "2026-10-11T04:16:10.638678+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/plan-evidence.json"
+    },
+    {
+      "event": "design_system_ready",
+      "at": "2026-10-11T04:16:11.000198+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/design-system-evidence.json"
+    },
+    {
+      "event": "figma_ready",
+      "at": "2026-10-11T05:21:39.179913+00:00",
+      "evidence": "/Users/thuannv/Desktop/figma-design-agent/.agent/runtime/figma-ready-evidence.json"
+    }
+  ],
+  "last_error": null,
+  "updated_at": "2026-10-11T05:21:39.179913+00:00"
+}

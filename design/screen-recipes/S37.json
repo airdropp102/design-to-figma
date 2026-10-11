@@ -1,0 +1,446 @@
+{
+  "screen_id": "S37",
+  "name": "S37 An Nhiên — Trắng ngà — góc 225",
+  "root": {
+    "width": 1440,
+    "height": 900,
+    "x": 12400,
+    "y": 4800,
+    "fill": "bg",
+    "layout": "NONE"
+  },
+  "nodes": [
+    {
+      "semantic_id": "brand",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/brand",
+      "text": "NÉT",
+      "layout": {
+        "x": 64,
+        "y": 28
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "photo",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "img/photo",
+      "layout": {
+        "x": 64,
+        "y": 96,
+        "width": 576,
+        "height": 720,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:an-nhien-ivory-225"
+      ]
+    },
+    {
+      "semantic_id": "kicker",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/kicker",
+      "text": "DÁNG VIỆT / THỬ 8 GÓC",
+      "layout": {
+        "x": 728,
+        "y": 112
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "title",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/title",
+      "text": "An Nhiên",
+      "layout": {
+        "x": 728,
+        "y": 160
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "price",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/price",
+      "text": "2.490.000 đ",
+      "layout": {
+        "x": 728,
+        "y": 240
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "description",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/description",
+      "text": "Chọn màu và chuyển góc để xem dáng áo.\nẢnh AI minh họa, chưa xác nhận sản phẩm thật.",
+      "layout": {
+        "x": 728,
+        "y": 296
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "color.current",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/color.current",
+      "text": "Màu đang xem: Trắng ngà",
+      "layout": {
+        "x": 728,
+        "y": 376
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "color.ivory",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/color.ivory",
+      "layout": {
+        "x": 728,
+        "y": 416,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary"
+      }
+    },
+    {
+      "semantic_id": "color.ivory.label",
+      "type": "TEXT",
+      "parent": "color.ivory",
+      "name": "text/color.ivory.label",
+      "text": "Trắng ngà · Chọn",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "color.sage",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/color.sage",
+      "layout": {
+        "x": 1000,
+        "y": 416,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary",
+        "prototype": {
+          "destinationScreen": "S45",
+          "action": "NAVIGATE",
+          "transition": "DISSOLVE",
+          "duration": 0.2
+        }
+      }
+    },
+    {
+      "semantic_id": "color.sage.label",
+      "type": "TEXT",
+      "parent": "color.sage",
+      "name": "text/color.sage.label",
+      "text": "Xanh ngọc",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "angle.current",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/angle.current",
+      "text": "Góc 225° · 6/8",
+      "layout": {
+        "x": 728,
+        "y": 520
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "angle.prev",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/angle.prev",
+      "layout": {
+        "x": 728,
+        "y": 576,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary",
+        "prototype": {
+          "destinationScreen": "S36",
+          "action": "NAVIGATE",
+          "transition": "DISSOLVE",
+          "duration": 0.12
+        }
+      }
+    },
+    {
+      "semantic_id": "angle.prev.label",
+      "type": "TEXT",
+      "parent": "angle.prev",
+      "name": "text/angle.prev.label",
+      "text": "Góc trước",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "angle.next",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/angle.next",
+      "layout": {
+        "x": 1000,
+        "y": 576,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary",
+        "prototype": {
+          "destinationScreen": "S38",
+          "action": "NAVIGATE",
+          "transition": "DISSOLVE",
+          "duration": 0.12
+        }
+      }
+    },
+    {
+      "semantic_id": "angle.next.label",
+      "type": "TEXT",
+      "parent": "angle.next",
+      "name": "text/angle.next.label",
+      "text": "Góc tiếp theo",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "book",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/book",
+      "layout": {
+        "x": 728,
+        "y": 672,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary",
+        "prototype": {
+          "destinationScreen": "S30",
+          "action": "OVERLAY",
+          "transition": "DISSOLVE",
+          "duration": 0.12
+        }
+      }
+    },
+    {
+      "semantic_id": "book.label",
+      "type": "TEXT",
+      "parent": "book",
+      "name": "text/book.label",
+      "text": "Đặt lịch thử",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "home",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/home",
+      "layout": {
+        "x": 1000,
+        "y": 672,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary",
+        "prototype": {
+          "destinationScreen": "S28",
+          "action": "NAVIGATE",
+          "transition": "DISSOLVE",
+          "duration": 0.12
+        }
+      }
+    },
+    {
+      "semantic_id": "home.label",
+      "type": "TEXT",
+      "parent": "home",
+      "name": "text/home.label",
+      "text": "Về trang chủ",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "disclosure",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/disclosure",
+      "text": "Mô phỏng 8 ảnh, không xoay 3D liên tục.\nGóc sau và chi tiết khuất do AI suy diễn.",
+      "layout": {
+        "x": 728,
+        "y": 776
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    }
+  ]
+}

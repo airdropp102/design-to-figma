@@ -1,0 +1,24 @@
+version: 1
+backend: talktofigma
+runtime: [claude, codex]
+brainstorm:
+  required: true
+  approval_required: true
+  max_questions: 8
+limits:
+  screens_per_run: 25
+  tool_failures_per_step: 2
+  targeted_repairs_per_screen: 2
+qa:
+  structural_all: true
+  visual_p0: true
+  block_p0_completion_on_visual_failure: true
+  required_p0_state_coverage: 1.0
+  required_p0_flow_coverage: 1.0
+product_output:
+  figma_design_only: true
+  prohibit_application_code: true
+recovery:
+  reconcile_before_retry: true
+  forbid_force_resume: true
+  file_identity_check: true

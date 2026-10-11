@@ -1,0 +1,28 @@
+{
+  "screen_id": "S27",
+  "name": "S27 Fashion v2 — Raster preview [DRAFT]",
+  "root": {
+    "width": 1440,
+    "height": 3456.79851669,
+    "layout": "NONE",
+    "fill": "bg"
+  },
+  "nodes": [
+    {
+      "semantic_id": "fashion.preview",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "img/net-fashion-v2-preview [RASTER DRAFT]",
+      "layout": {
+        "width": 1440,
+        "height": 3456.79851669
+      },
+      "assets": [
+        "images:net-fashion-v2-preview"
+      ],
+      "tokens": [
+        "colors.bg"
+      ]
+    }
+  ]
+}

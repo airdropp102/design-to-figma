@@ -1,0 +1,1703 @@
+{
+  "screen_id": "S01",
+  "name": "S01 Trang chủ — Desktop",
+  "root": {
+    "width": 1440,
+    "height": 5948,
+    "layout": "VERTICAL",
+    "fill": "bg"
+  },
+  "nodes": [
+    {
+      "semantic_id": "header",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "Header",
+      "layout": {
+        "width": 1440,
+        "height": 128,
+        "direction": "HORIZONTAL",
+        "padding": 32,
+        "gap": 96
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "brand",
+      "type": "TEXT",
+      "parent": "header",
+      "name": "text/text/brand",
+      "text": "NÉT",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "nav",
+      "type": "TEXT",
+      "parent": "header",
+      "name": "text/text/nav",
+      "text": "Bộ sưu tập     Áo dài     Câu chuyện",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "nav.book",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "CTA/Đặt lịch thử",
+      "layout": {
+        "width": 196,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta"
+      }
+    },
+    {
+      "semantic_id": "nav.book.label",
+      "type": "TEXT",
+      "parent": "nav.book",
+      "name": "text/on_primary/nav.book.label",
+      "text": "Đặt lịch thử",
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "hero",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "01 Hero",
+      "layout": {
+        "width": 1440,
+        "height": 800,
+        "direction": "HORIZONTAL",
+        "padding": 120,
+        "gap": 48
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "hero.copy",
+      "type": "FRAME",
+      "parent": "hero",
+      "name": "Hero / Content",
+      "layout": {
+        "width": 552,
+        "height": 560,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "hero.eyebrow",
+      "type": "TEXT",
+      "parent": "hero.copy",
+      "name": "text/muted/hero.eyebrow",
+      "text": "ÁO DÀI ĐƯƠNG ĐẠI",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "hero.title",
+      "type": "TEXT",
+      "parent": "hero.copy",
+      "name": "text/text/hero.title",
+      "text": "Nét Việt.\nDáng hôm nay.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 64,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "hero.body",
+      "type": "TEXT",
+      "parent": "hero.copy",
+      "name": "text/text/hero.body",
+      "text": "Phom áo thanh thoát, chất liệu mềm mại.\nMột nét riêng cho những khoảnh khắc của bạn.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "hero.collection",
+      "type": "FRAME",
+      "parent": "hero.copy",
+      "name": "CTA/Khám phá bộ sưu tập",
+      "layout": {
+        "width": 280,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta"
+      }
+    },
+    {
+      "semantic_id": "hero.collection.label",
+      "type": "TEXT",
+      "parent": "hero.collection",
+      "name": "text/on_primary/hero.collection.label",
+      "text": "Khám phá bộ sưu tập",
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "hero.book",
+      "type": "FRAME",
+      "parent": "hero.copy",
+      "name": "CTA/Đặt lịch thử",
+      "layout": {
+        "width": 196,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "hero.book.label",
+      "type": "TEXT",
+      "parent": "hero.book",
+      "name": "text/text/hero.book.label",
+      "text": "Đặt lịch thử",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "hero.editorial",
+      "type": "FRAME",
+      "parent": "hero",
+      "name": "img/hero.editorial [PLACEHOLDER]",
+      "layout": {
+        "width": 600,
+        "height": 560,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:hero.editorial"
+      ]
+    },
+    {
+      "semantic_id": "hero.editorial.label",
+      "type": "TEXT",
+      "parent": "hero.editorial",
+      "name": "text/muted/hero.editorial.label",
+      "text": "Ảnh editorial toàn thân\nGiữ trọn tà áo · asset chưa cung cấp",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "02 Bộ sưu tập Dáng Việt",
+      "layout": {
+        "width": 1440,
+        "height": 900,
+        "direction": "VERTICAL",
+        "padding": 120,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "collection.kicker",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/muted/collection.kicker",
+      "text": "BỘ SƯU TẬP CHỦ ĐẠO",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "collection.title",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/text/collection.title",
+      "text": "Dáng Việt",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "collection.body",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/text/collection.body",
+      "text": "Thanh thoát trong từng đường nét. Gần gũi trong từng ngày.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.editorial",
+      "type": "FRAME",
+      "parent": "collection",
+      "name": "img/collection.editorial [PLACEHOLDER]",
+      "layout": {
+        "width": 1200,
+        "height": 360,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:collection.editorial"
+      ]
+    },
+    {
+      "semantic_id": "collection.editorial.label",
+      "type": "TEXT",
+      "parent": "collection.editorial",
+      "name": "text/muted/collection.editorial.label",
+      "text": "Ảnh bộ sưu tập Dáng Việt · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.cta",
+      "type": "FRAME",
+      "parent": "collection",
+      "name": "CTA/Khám phá Dáng Việt",
+      "layout": {
+        "width": 260,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta"
+      }
+    },
+    {
+      "semantic_id": "collection.cta.label",
+      "type": "TEXT",
+      "parent": "collection.cta",
+      "name": "text/on_primary/collection.cta.label",
+      "text": "Khám phá Dáng Việt",
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "features",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "03 Phom · Chất liệu · Chi tiết",
+      "layout": {
+        "width": 1440,
+        "height": 820,
+        "direction": "VERTICAL",
+        "padding": 120,
+        "gap": 32
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "features.title",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/features.title",
+      "text": "Đẹp từ những điều tinh tế.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "features.row",
+      "type": "FRAME",
+      "parent": "features",
+      "name": "Feature cards",
+      "layout": {
+        "width": 1200,
+        "height": 460,
+        "direction": "HORIZONTAL",
+        "padding": 0,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "features.0",
+      "type": "FRAME",
+      "parent": "features.row",
+      "name": "Phom thanh thoát",
+      "layout": {
+        "width": 384,
+        "height": 460,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "features.0.img",
+      "type": "FRAME",
+      "parent": "features.0",
+      "name": "img/features.0.img [PLACEHOLDER]",
+      "layout": {
+        "width": 384,
+        "height": 280,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:features.0.img"
+      ]
+    },
+    {
+      "semantic_id": "features.0.img.label",
+      "type": "TEXT",
+      "parent": "features.0.img",
+      "name": "text/muted/features.0.img.label",
+      "text": "Ảnh Phom thanh thoát · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "features.0.title",
+      "type": "TEXT",
+      "parent": "features.0",
+      "name": "text/text/features.0.title",
+      "text": "Phom thanh thoát",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "features.0.body",
+      "type": "TEXT",
+      "parent": "features.0",
+      "name": "text/text/features.0.body",
+      "text": "Cổ đứng gọn. Tà dài mềm mại.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "features.1",
+      "type": "FRAME",
+      "parent": "features.row",
+      "name": "Chất liệu mềm mại",
+      "layout": {
+        "width": 384,
+        "height": 460,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "features.1.img",
+      "type": "FRAME",
+      "parent": "features.1",
+      "name": "img/features.1.img [PLACEHOLDER]",
+      "layout": {
+        "width": 384,
+        "height": 280,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:features.1.img"
+      ]
+    },
+    {
+      "semantic_id": "features.1.img.label",
+      "type": "TEXT",
+      "parent": "features.1.img",
+      "name": "text/muted/features.1.img.label",
+      "text": "Ảnh Chất liệu mềm mại · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "features.1.title",
+      "type": "TEXT",
+      "parent": "features.1",
+      "name": "text/text/features.1.title",
+      "text": "Chất liệu mềm mại",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "features.1.body",
+      "type": "TEXT",
+      "parent": "features.1",
+      "name": "text/text/features.1.body",
+      "text": "Lụa satin mẫu, bề mặt bắt sáng nhẹ.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "features.2",
+      "type": "FRAME",
+      "parent": "features.row",
+      "name": "Chi tiết chỉn chu",
+      "layout": {
+        "width": 384,
+        "height": 460,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "features.2.img",
+      "type": "FRAME",
+      "parent": "features.2",
+      "name": "img/features.2.img [PLACEHOLDER]",
+      "layout": {
+        "width": 384,
+        "height": 280,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:features.2.img"
+      ]
+    },
+    {
+      "semantic_id": "features.2.img.label",
+      "type": "TEXT",
+      "parent": "features.2.img",
+      "name": "text/muted/features.2.img.label",
+      "text": "Ảnh Chi tiết chỉn chu · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "features.2.title",
+      "type": "TEXT",
+      "parent": "features.2",
+      "name": "text/text/features.2.title",
+      "text": "Chi tiết chỉn chu",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "features.2.body",
+      "type": "TEXT",
+      "parent": "features.2",
+      "name": "text/text/features.2.body",
+      "text": "Cận cảnh cổ và tay áo khi có ảnh thật.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "fabric",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "04 Câu chuyện chất liệu",
+      "layout": {
+        "width": 1440,
+        "height": 880,
+        "direction": "VERTICAL",
+        "padding": 120,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "fabric.title",
+      "type": "TEXT",
+      "parent": "fabric",
+      "name": "text/text/fabric.title",
+      "text": "Cảm nhận trong từng chuyển động.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "fabric.body",
+      "type": "TEXT",
+      "parent": "fabric",
+      "name": "text/text/fabric.body",
+      "text": "Bề mặt vải, độ rủ và ánh sáng tạo nên cảm giác của mẫu áo.\nChất liệu demo cần được xác nhận trước khi dùng thật.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "fabric.row",
+      "type": "FRAME",
+      "parent": "fabric",
+      "name": "Texture to silhouette",
+      "layout": {
+        "width": 1200,
+        "height": 440,
+        "direction": "HORIZONTAL",
+        "padding": 0,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "fabric.texture",
+      "type": "FRAME",
+      "parent": "fabric.row",
+      "name": "img/fabric.texture [PLACEHOLDER]",
+      "layout": {
+        "width": 588,
+        "height": 440,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:fabric.texture"
+      ]
+    },
+    {
+      "semantic_id": "fabric.texture.label",
+      "type": "TEXT",
+      "parent": "fabric.texture",
+      "name": "text/muted/fabric.texture.label",
+      "text": "Ảnh cận vải thật · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "fabric.silhouette",
+      "type": "FRAME",
+      "parent": "fabric.row",
+      "name": "img/fabric.silhouette [PLACEHOLDER]",
+      "layout": {
+        "width": 588,
+        "height": 440,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:fabric.silhouette"
+      ]
+    },
+    {
+      "semantic_id": "fabric.silhouette.label",
+      "type": "TEXT",
+      "parent": "fabric.silhouette",
+      "name": "text/muted/fabric.silhouette.label",
+      "text": "Ảnh áo dài trên người · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "colors",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "05 Lựa chọn màu sắc",
+      "layout": {
+        "width": 1440,
+        "height": 740,
+        "direction": "HORIZONTAL",
+        "padding": 120,
+        "gap": 48
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "colors.copy",
+      "type": "FRAME",
+      "parent": "colors",
+      "name": "Color content",
+      "layout": {
+        "width": 552,
+        "height": 500,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "colors.title",
+      "type": "TEXT",
+      "parent": "colors.copy",
+      "name": "text/text/colors.title",
+      "text": "Một dáng áo.\nNhiều sắc riêng.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "colors.body",
+      "type": "TEXT",
+      "parent": "colors.copy",
+      "name": "text/text/colors.body",
+      "text": "An Nhiên · chọn màu để khám phá.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "colors.ivory",
+      "type": "FRAME",
+      "parent": "colors.copy",
+      "name": "CTA/Trắng ngà — Đã chọn",
+      "layout": {
+        "width": 300,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta"
+      }
+    },
+    {
+      "semantic_id": "colors.ivory.label",
+      "type": "TEXT",
+      "parent": "colors.ivory",
+      "name": "text/on_primary/colors.ivory.label",
+      "text": "Trắng ngà — Đã chọn",
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "colors.sage",
+      "type": "FRAME",
+      "parent": "colors.copy",
+      "name": "CTA/Xanh sage",
+      "layout": {
+        "width": 240,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "colors.sage.label",
+      "type": "TEXT",
+      "parent": "colors.sage",
+      "name": "text/text/colors.sage.label",
+      "text": "Xanh sage",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "colors.note",
+      "type": "TEXT",
+      "parent": "colors.copy",
+      "name": "text/muted/colors.note",
+      "text": "Tên màu và nhãn chọn thay cho swatch\nkhi chưa có asset màu đã được duyệt.",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "colors.product",
+      "type": "FRAME",
+      "parent": "colors",
+      "name": "img/colors.product [PLACEHOLDER]",
+      "layout": {
+        "width": 600,
+        "height": 500,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:colors.product"
+      ]
+    },
+    {
+      "semantic_id": "colors.product.label",
+      "type": "TEXT",
+      "parent": "colors.product",
+      "name": "text/muted/colors.product.label",
+      "text": "An Nhiên · Trắng ngà · placeholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "06 Sản phẩm tuyển chọn",
+      "layout": {
+        "width": 1440,
+        "height": 960,
+        "direction": "VERTICAL",
+        "padding": 120,
+        "gap": 32
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.title",
+      "type": "TEXT",
+      "parent": "products",
+      "name": "text/text/products.title",
+      "text": "Dành cho khoảnh khắc của bạn.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "products.row",
+      "type": "FRAME",
+      "parent": "products",
+      "name": "Product cards",
+      "layout": {
+        "width": 1200,
+        "height": 500,
+        "direction": "HORIZONTAL",
+        "padding": 0,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.0",
+      "type": "FRAME",
+      "parent": "products.row",
+      "name": "Card / An Nhiên",
+      "layout": {
+        "width": 282,
+        "height": 500,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.0.img",
+      "type": "FRAME",
+      "parent": "products.0",
+      "name": "img/products.0.img [PLACEHOLDER]",
+      "layout": {
+        "width": 282,
+        "height": 320,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:products.0.img"
+      ]
+    },
+    {
+      "semantic_id": "products.0.img.label",
+      "type": "TEXT",
+      "parent": "products.0.img",
+      "name": "text/muted/products.0.img.label",
+      "text": "Ảnh An Nhiên\nplaceholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.0.name",
+      "type": "TEXT",
+      "parent": "products.0",
+      "name": "text/text/products.0.name",
+      "text": "An Nhiên",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "products.0.price",
+      "type": "TEXT",
+      "parent": "products.0",
+      "name": "text/text/products.0.price",
+      "text": "2.490.000₫ · Giá demo",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.0.color",
+      "type": "TEXT",
+      "parent": "products.0",
+      "name": "text/muted/products.0.color",
+      "text": "Trắng ngà · Xanh sage",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.1",
+      "type": "FRAME",
+      "parent": "products.row",
+      "name": "Card / Ngọc Sương",
+      "layout": {
+        "width": 282,
+        "height": 500,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.1.img",
+      "type": "FRAME",
+      "parent": "products.1",
+      "name": "img/products.1.img [PLACEHOLDER]",
+      "layout": {
+        "width": 282,
+        "height": 320,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:products.1.img"
+      ]
+    },
+    {
+      "semantic_id": "products.1.img.label",
+      "type": "TEXT",
+      "parent": "products.1.img",
+      "name": "text/muted/products.1.img.label",
+      "text": "Ảnh Ngọc Sương\nplaceholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.1.name",
+      "type": "TEXT",
+      "parent": "products.1",
+      "name": "text/text/products.1.name",
+      "text": "Ngọc Sương",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "products.1.price",
+      "type": "TEXT",
+      "parent": "products.1",
+      "name": "text/text/products.1.price",
+      "text": "3.290.000₫ · Giá demo",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.1.color",
+      "type": "TEXT",
+      "parent": "products.1",
+      "name": "text/muted/products.1.color",
+      "text": "Hồng phấn · Trắng ngọc",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.2",
+      "type": "FRAME",
+      "parent": "products.row",
+      "name": "Card / Hạ Miên",
+      "layout": {
+        "width": 282,
+        "height": 500,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.2.img",
+      "type": "FRAME",
+      "parent": "products.2",
+      "name": "img/products.2.img [PLACEHOLDER]",
+      "layout": {
+        "width": 282,
+        "height": 320,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:products.2.img"
+      ]
+    },
+    {
+      "semantic_id": "products.2.img.label",
+      "type": "TEXT",
+      "parent": "products.2.img",
+      "name": "text/muted/products.2.img.label",
+      "text": "Ảnh Hạ Miên\nplaceholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.2.name",
+      "type": "TEXT",
+      "parent": "products.2",
+      "name": "text/text/products.2.name",
+      "text": "Hạ Miên",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "products.2.price",
+      "type": "TEXT",
+      "parent": "products.2",
+      "name": "text/text/products.2.price",
+      "text": "1.890.000₫ · Giá demo",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.2.color",
+      "type": "TEXT",
+      "parent": "products.2",
+      "name": "text/muted/products.2.color",
+      "text": "Be cát · Xanh nhạt",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.3",
+      "type": "FRAME",
+      "parent": "products.row",
+      "name": "Card / Diễm Châu",
+      "layout": {
+        "width": 282,
+        "height": 500,
+        "direction": "VERTICAL",
+        "padding": 0,
+        "gap": 16
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.3.img",
+      "type": "FRAME",
+      "parent": "products.3",
+      "name": "img/products.3.img [PLACEHOLDER]",
+      "layout": {
+        "width": 282,
+        "height": 320,
+        "direction": "VERTICAL",
+        "padding": 24,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      },
+      "assets": [
+        "images:products.3.img"
+      ]
+    },
+    {
+      "semantic_id": "products.3.img.label",
+      "type": "TEXT",
+      "parent": "products.3.img",
+      "name": "text/muted/products.3.img.label",
+      "text": "Ảnh Diễm Châu\nplaceholder",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.3.name",
+      "type": "TEXT",
+      "parent": "products.3",
+      "name": "text/text/products.3.name",
+      "text": "Diễm Châu",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "products.3.price",
+      "type": "TEXT",
+      "parent": "products.3",
+      "name": "text/text/products.3.price",
+      "text": "4.590.000₫ · Giá demo",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.3.color",
+      "type": "TEXT",
+      "parent": "products.3",
+      "name": "text/muted/products.3.color",
+      "text": "Đỏ rượu · Champagne",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.all",
+      "type": "FRAME",
+      "parent": "products",
+      "name": "CTA/Xem tất cả áo dài",
+      "layout": {
+        "width": 260,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta"
+      }
+    },
+    {
+      "semantic_id": "products.all.label",
+      "type": "TEXT",
+      "parent": "products.all",
+      "name": "text/on_primary/products.all.label",
+      "text": "Xem tất cả áo dài",
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "booking",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "07 Đặt lịch thử",
+      "layout": {
+        "width": 1440,
+        "height": 400,
+        "direction": "VERTICAL",
+        "padding": 96,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      }
+    },
+    {
+      "semantic_id": "booking.title",
+      "type": "TEXT",
+      "parent": "booking",
+      "name": "text/text/booking.title",
+      "text": "Một cuộc hẹn. Một nét riêng.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "booking.body",
+      "type": "TEXT",
+      "parent": "booking",
+      "name": "text/text/booking.body",
+      "text": "Để chúng tôi tư vấn mẫu áo và phom dáng phù hợp với bạn.",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking.cta",
+      "type": "FRAME",
+      "parent": "booking",
+      "name": "CTA/Đặt lịch thử",
+      "layout": {
+        "width": 240,
+        "height": 52,
+        "direction": "HORIZONTAL",
+        "padding": 16,
+        "gap": 0
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta"
+      }
+    },
+    {
+      "semantic_id": "booking.cta.label",
+      "type": "TEXT",
+      "parent": "booking.cta",
+      "name": "text/on_primary/booking.cta.label",
+      "text": "Đặt lịch thử",
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "footer",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "08 Footer",
+      "layout": {
+        "width": 1440,
+        "height": 320,
+        "direction": "VERTICAL",
+        "padding": 64,
+        "gap": 24
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "footer.brand",
+      "type": "TEXT",
+      "parent": "footer",
+      "name": "text/text/footer.brand",
+      "text": "NÉT — Áo dài đương đại",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "footer.links",
+      "type": "TEXT",
+      "parent": "footer",
+      "name": "text/text/footer.links",
+      "text": "Bộ sưu tập     Áo dài     Tư vấn và đặt lịch",
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "footer.demo",
+      "type": "TEXT",
+      "parent": "footer",
+      "name": "text/muted/footer.demo",
+      "text": "Liên hệ và chính sách: Thông tin demo.\nTên thương hiệu, sản phẩm, giá và chất liệu là dữ liệu thiết kế mẫu.",
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    }
+  ],
+  "notes": [
+    "Single-screen preview requested by user; no prototype claims",
+    "Inter substitutes editorial font because MCP has no fontFamily setter",
+    "All image references missing, render labeled placeholders",
+    "Homepage contains hero + collection + 3 feature cards + fabric + colors + 4 products + booking + footer"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "MAINTAINER_VERIFICATION_REQUIRED",
+  "talktofigma": {
+    "repository": "https://github.com/grab/cursor-talk-to-figma-mcp",
+    "commit_sha": "ddd90f3a6d454ea0b2fc29f1b084f50fd062b880"
+  },
+  "superpowers": {
+    "repository": "https://github.com/obra/superpowers",
+    "commit_sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d"
+  },
+  "ui_ux_pro_max": {
+    "source": "ui-ux-pro-max",
+    "release_version": "2.15.0"
+  },
+  "python": {
+    "pyyaml": "6.0.3"
+  },
+  "runtime_clis": {
+    "claude": {
+      "version": null,
+      "verified_interactive_args": null
+    },
+    "codex": {
+      "version": "codex-cli 0.162.0-alpha.17.2",
+      "verified_interactive_args": "positional-prompt"
+    }
+  }
+}

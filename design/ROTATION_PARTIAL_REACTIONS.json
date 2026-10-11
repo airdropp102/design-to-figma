@@ -1,0 +1,498 @@
+{
+  "prototypePluginVersion": "1.0.0",
+  "readOnly": true,
+  "nodes": [
+    {
+      "id": "81:17",
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "81:24",
+            "navigation": "NAVIGATE",
+            "transition": {
+              "type": "DISSOLVE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.11999999731779099
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "81:24",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.11999999731779099
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "81:15",
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "81:156",
+            "navigation": "NAVIGATE",
+            "transition": {
+              "type": "DISSOLVE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.11999999731779099
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "81:156",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.11999999731779099
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "81:10",
+      "reactions": []
+    },
+    {
+      "id": "81:12",
+      "reactions": []
+    },
+    {
+      "id": "81:19",
+      "reactions": []
+    },
+    {
+      "id": "81:21",
+      "reactions": []
+    },
+    {
+      "id": "81:39",
+      "reactions": []
+    },
+    {
+      "id": "81:37",
+      "reactions": []
+    },
+    {
+      "id": "81:32",
+      "reactions": []
+    },
+    {
+      "id": "81:34",
+      "reactions": []
+    },
+    {
+      "id": "81:41",
+      "reactions": []
+    },
+    {
+      "id": "81:43",
+      "reactions": []
+    },
+    {
+      "id": "81:61",
+      "reactions": []
+    },
+    {
+      "id": "81:59",
+      "reactions": []
+    },
+    {
+      "id": "81:54",
+      "reactions": []
+    },
+    {
+      "id": "81:56",
+      "reactions": []
+    },
+    {
+      "id": "81:63",
+      "reactions": []
+    },
+    {
+      "id": "81:65",
+      "reactions": []
+    },
+    {
+      "id": "81:83",
+      "reactions": []
+    },
+    {
+      "id": "81:81",
+      "reactions": []
+    },
+    {
+      "id": "81:76",
+      "reactions": []
+    },
+    {
+      "id": "81:78",
+      "reactions": []
+    },
+    {
+      "id": "81:85",
+      "reactions": []
+    },
+    {
+      "id": "81:87",
+      "reactions": []
+    },
+    {
+      "id": "81:105",
+      "reactions": []
+    },
+    {
+      "id": "81:103",
+      "reactions": []
+    },
+    {
+      "id": "81:98",
+      "reactions": []
+    },
+    {
+      "id": "81:100",
+      "reactions": []
+    },
+    {
+      "id": "81:107",
+      "reactions": []
+    },
+    {
+      "id": "81:109",
+      "reactions": []
+    },
+    {
+      "id": "81:127",
+      "reactions": []
+    },
+    {
+      "id": "81:125",
+      "reactions": []
+    },
+    {
+      "id": "81:120",
+      "reactions": []
+    },
+    {
+      "id": "81:122",
+      "reactions": []
+    },
+    {
+      "id": "81:129",
+      "reactions": []
+    },
+    {
+      "id": "81:131",
+      "reactions": []
+    },
+    {
+      "id": "81:149",
+      "reactions": []
+    },
+    {
+      "id": "81:147",
+      "reactions": []
+    },
+    {
+      "id": "81:142",
+      "reactions": []
+    },
+    {
+      "id": "81:144",
+      "reactions": []
+    },
+    {
+      "id": "81:151",
+      "reactions": []
+    },
+    {
+      "id": "81:153",
+      "reactions": []
+    },
+    {
+      "id": "81:171",
+      "reactions": []
+    },
+    {
+      "id": "81:169",
+      "reactions": []
+    },
+    {
+      "id": "81:164",
+      "reactions": []
+    },
+    {
+      "id": "81:166",
+      "reactions": []
+    },
+    {
+      "id": "81:173",
+      "reactions": []
+    },
+    {
+      "id": "81:175",
+      "reactions": []
+    },
+    {
+      "id": "81:193",
+      "reactions": []
+    },
+    {
+      "id": "81:191",
+      "reactions": []
+    },
+    {
+      "id": "81:186",
+      "reactions": []
+    },
+    {
+      "id": "81:188",
+      "reactions": []
+    },
+    {
+      "id": "81:195",
+      "reactions": []
+    },
+    {
+      "id": "81:197",
+      "reactions": []
+    },
+    {
+      "id": "81:215",
+      "reactions": []
+    },
+    {
+      "id": "81:213",
+      "reactions": []
+    },
+    {
+      "id": "81:208",
+      "reactions": []
+    },
+    {
+      "id": "81:210",
+      "reactions": []
+    },
+    {
+      "id": "81:217",
+      "reactions": []
+    },
+    {
+      "id": "81:219",
+      "reactions": []
+    },
+    {
+      "id": "81:237",
+      "reactions": []
+    },
+    {
+      "id": "81:235",
+      "reactions": []
+    },
+    {
+      "id": "81:230",
+      "reactions": []
+    },
+    {
+      "id": "81:232",
+      "reactions": []
+    },
+    {
+      "id": "81:239",
+      "reactions": []
+    },
+    {
+      "id": "81:241",
+      "reactions": []
+    },
+    {
+      "id": "81:259",
+      "reactions": []
+    },
+    {
+      "id": "81:257",
+      "reactions": []
+    },
+    {
+      "id": "81:252",
+      "reactions": []
+    },
+    {
+      "id": "81:254",
+      "reactions": []
+    },
+    {
+      "id": "81:261",
+      "reactions": []
+    },
+    {
+      "id": "81:263",
+      "reactions": []
+    },
+    {
+      "id": "81:281",
+      "reactions": []
+    },
+    {
+      "id": "81:279",
+      "reactions": []
+    },
+    {
+      "id": "81:274",
+      "reactions": []
+    },
+    {
+      "id": "81:276",
+      "reactions": []
+    },
+    {
+      "id": "81:283",
+      "reactions": []
+    },
+    {
+      "id": "81:285",
+      "reactions": []
+    },
+    {
+      "id": "81:303",
+      "reactions": []
+    },
+    {
+      "id": "81:301",
+      "reactions": []
+    },
+    {
+      "id": "81:296",
+      "reactions": []
+    },
+    {
+      "id": "81:298",
+      "reactions": []
+    },
+    {
+      "id": "81:305",
+      "reactions": []
+    },
+    {
+      "id": "81:307",
+      "reactions": []
+    },
+    {
+      "id": "81:325",
+      "reactions": []
+    },
+    {
+      "id": "81:323",
+      "reactions": []
+    },
+    {
+      "id": "81:318",
+      "reactions": []
+    },
+    {
+      "id": "81:320",
+      "reactions": []
+    },
+    {
+      "id": "81:327",
+      "reactions": []
+    },
+    {
+      "id": "81:329",
+      "reactions": []
+    },
+    {
+      "id": "81:347",
+      "reactions": []
+    },
+    {
+      "id": "81:345",
+      "reactions": []
+    },
+    {
+      "id": "81:340",
+      "reactions": []
+    },
+    {
+      "id": "81:342",
+      "reactions": []
+    },
+    {
+      "id": "81:349",
+      "reactions": []
+    },
+    {
+      "id": "81:351",
+      "reactions": []
+    },
+    {
+      "id": "69:303",
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "69:310",
+            "navigation": "OVERLAY",
+            "transition": {
+              "type": "DISSOLVE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "69:310",
+              "navigation": "OVERLAY",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    }
+  ],
+  "scrollFrames": [],
+  "viewports": []
+}

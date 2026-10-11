@@ -1,0 +1,22 @@
+{
+  "screen_id": "S05",
+  "name": "S05 Chi tiết dịch vụ",
+  "nodes": [
+    {
+      "semantic_id": "service.detail.hero",
+      "type": "FRAME",
+      "parent": "root",
+      "layout": {"direction": "VERTICAL", "padding": 16},
+      "assets": ["images:service-hero"]
+    },
+    {
+      "semantic_id": "service.detail.cta.label",
+      "type": "TEXT",
+      "parent": "service.detail.hero",
+      "name": "CTA/Booking/Label",
+      "text": "Đặt lịch",
+      "tokens": ["colors.primary"],
+      "style": {"role": "cta-label"}
+    }
+  ]
+}

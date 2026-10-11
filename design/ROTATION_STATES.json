@@ -1,0 +1,98 @@
+[
+  {
+    "key": "S32",
+    "color": "ivory",
+    "angle": 0,
+    "name": "S32 An Nhiên — Trắng ngà — góc 0"
+  },
+  {
+    "key": "S33",
+    "color": "ivory",
+    "angle": 45,
+    "name": "S33 An Nhiên — Trắng ngà — góc 45"
+  },
+  {
+    "key": "S34",
+    "color": "ivory",
+    "angle": 90,
+    "name": "S34 An Nhiên — Trắng ngà — góc 90"
+  },
+  {
+    "key": "S35",
+    "color": "ivory",
+    "angle": 135,
+    "name": "S35 An Nhiên — Trắng ngà — góc 135"
+  },
+  {
+    "key": "S36",
+    "color": "ivory",
+    "angle": 180,
+    "name": "S36 An Nhiên — Trắng ngà — góc 180"
+  },
+  {
+    "key": "S37",
+    "color": "ivory",
+    "angle": 225,
+    "name": "S37 An Nhiên — Trắng ngà — góc 225"
+  },
+  {
+    "key": "S38",
+    "color": "ivory",
+    "angle": 270,
+    "name": "S38 An Nhiên — Trắng ngà — góc 270"
+  },
+  {
+    "key": "S39",
+    "color": "ivory",
+    "angle": 315,
+    "name": "S39 An Nhiên — Trắng ngà — góc 315"
+  },
+  {
+    "key": "S40",
+    "color": "sage",
+    "angle": 0,
+    "name": "S40 An Nhiên — Xanh ngọc — góc 0"
+  },
+  {
+    "key": "S41",
+    "color": "sage",
+    "angle": 45,
+    "name": "S41 An Nhiên — Xanh ngọc — góc 45"
+  },
+  {
+    "key": "S42",
+    "color": "sage",
+    "angle": 90,
+    "name": "S42 An Nhiên — Xanh ngọc — góc 90"
+  },
+  {
+    "key": "S43",
+    "color": "sage",
+    "angle": 135,
+    "name": "S43 An Nhiên — Xanh ngọc — góc 135"
+  },
+  {
+    "key": "S44",
+    "color": "sage",
+    "angle": 180,
+    "name": "S44 An Nhiên — Xanh ngọc — góc 180"
+  },
+  {
+    "key": "S45",
+    "color": "sage",
+    "angle": 225,
+    "name": "S45 An Nhiên — Xanh ngọc — góc 225"
+  },
+  {
+    "key": "S46",
+    "color": "sage",
+    "angle": 270,
+    "name": "S46 An Nhiên — Xanh ngọc — góc 270"
+  },
+  {
+    "key": "S47",
+    "color": "sage",
+    "angle": 315,
+    "name": "S47 An Nhiên — Xanh ngọc — góc 315"
+  }
+]

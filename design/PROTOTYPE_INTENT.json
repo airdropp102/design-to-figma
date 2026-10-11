@@ -1,0 +1,245 @@
+{
+  "fileKey": "rXrX1FHInMsxbejkvSP9Wl",
+  "pageId": "0:1",
+  "ownedRootIds": [
+    "69:204",
+    "69:286",
+    "69:310",
+    "69:328"
+  ],
+  "scrollFrameIds": [
+    "69:204",
+    "69:286"
+  ],
+  "viewportHeights": [
+    {
+      "nodeId": "69:204",
+      "height": 900
+    },
+    {
+      "nodeId": "69:286",
+      "height": 900
+    }
+  ],
+  "updates": [
+    {
+      "screen": "S28",
+      "semantic_id": "nav.book",
+      "nodeId": "69:213",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "hero.book",
+      "nodeId": "69:221",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "booking.cta",
+      "nodeId": "69:280",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "nav.collection",
+      "nodeId": "69:207",
+      "trigger": "ON_CLICK",
+      "action": "SCROLL_TO",
+      "destinationId": "69:223",
+      "transition": "SCROLL_ANIMATE",
+      "duration": 0.4
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "hero.explore",
+      "nodeId": "69:219",
+      "trigger": "ON_CLICK",
+      "action": "SCROLL_TO",
+      "destinationId": "69:223",
+      "transition": "SCROLL_ANIMATE",
+      "duration": 0.4
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "nav.products",
+      "nodeId": "69:209",
+      "trigger": "ON_CLICK",
+      "action": "SCROLL_TO",
+      "destinationId": "69:254",
+      "transition": "SCROLL_ANIMATE",
+      "duration": 0.4
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "nav.story",
+      "nodeId": "69:211",
+      "trigger": "ON_CLICK",
+      "action": "SCROLL_TO",
+      "destinationId": "69:240",
+      "transition": "SCROLL_ANIMATE",
+      "duration": 0.4
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "collection.explore",
+      "nodeId": "69:231",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:286",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "product.0",
+      "nodeId": "69:257",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:286",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "product.1",
+      "nodeId": "69:262",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "product.2",
+      "nodeId": "69:267",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S28",
+      "semantic_id": "product.3",
+      "nodeId": "69:272",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "nav.book",
+      "nodeId": "69:295",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "detail.book",
+      "nodeId": "69:305",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "detail.size",
+      "nodeId": "69:303",
+      "trigger": "ON_CLICK",
+      "action": "OVERLAY",
+      "destinationId": "69:310",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "nav.collection",
+      "nodeId": "69:289",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:204",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "nav.products",
+      "nodeId": "69:291",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:204",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "nav.story",
+      "nodeId": "69:293",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:204",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S29",
+      "semantic_id": "detail.back",
+      "nodeId": "69:307",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:204",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S30",
+      "semantic_id": "booking.submit",
+      "nodeId": "69:323",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:328",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S30",
+      "semantic_id": "booking.close",
+      "nodeId": "69:325",
+      "trigger": "ON_CLICK",
+      "action": "CLOSE",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    },
+    {
+      "screen": "S31",
+      "semantic_id": "success.home",
+      "nodeId": "69:333",
+      "trigger": "ON_CLICK",
+      "action": "NAVIGATE",
+      "destinationId": "69:204",
+      "transition": "DISSOLVE",
+      "duration": 0.3
+    }
+  ]
+}

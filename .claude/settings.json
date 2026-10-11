@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -f design/STATE.json ] && python3 scripts/state.py status --text || true"
+          }
+        ]
+      }
+    ]
+  }
+}

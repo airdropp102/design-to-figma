@@ -1,0 +1,1666 @@
+{
+  "screen_id": "S28",
+  "name": "S28 Fashion v2 — Editable Homepage",
+  "root": {
+    "width": 1440,
+    "height": 900,
+    "x": 4800,
+    "y": 0,
+    "fill": "bg",
+    "layout": "NONE"
+  },
+  "nodes": [
+    {
+      "semantic_id": "header",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/header",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 96,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototypeViewport": {
+          "rootHeight": 900,
+          "overflowDirection": "VERTICAL",
+          "clipsContent": true
+        }
+      }
+    },
+    {
+      "semantic_id": "brand",
+      "type": "TEXT",
+      "parent": "header",
+      "name": "text/text/brand",
+      "text": "NÉT",
+      "layout": {
+        "x": 72,
+        "y": 28
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "nav.collection",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.collection",
+      "layout": {
+        "x": 456,
+        "y": 22,
+        "width": 176,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "SCROLL_TO",
+          "destinationId": "69:223",
+          "transition": "SCROLL_ANIMATE",
+          "duration": 0.4
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.collection.label",
+      "type": "TEXT",
+      "parent": "nav.collection",
+      "name": "text/text/nav.collection.label",
+      "text": "Bộ sưu tập",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "nav.products",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.products",
+      "layout": {
+        "x": 648,
+        "y": 22,
+        "width": 112,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "SCROLL_TO",
+          "destinationId": "69:254",
+          "transition": "SCROLL_ANIMATE",
+          "duration": 0.4
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.products.label",
+      "type": "TEXT",
+      "parent": "nav.products",
+      "name": "text/text/nav.products.label",
+      "text": "Áo dài",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "nav.story",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.story",
+      "layout": {
+        "x": 768,
+        "y": 22,
+        "width": 176,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "SCROLL_TO",
+          "destinationId": "69:240",
+          "transition": "SCROLL_ANIMATE",
+          "duration": 0.4
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.story.label",
+      "type": "TEXT",
+      "parent": "nav.story",
+      "name": "text/text/nav.story.label",
+      "text": "Câu chuyện",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "nav.book",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.book",
+      "layout": {
+        "x": 1180,
+        "y": 22,
+        "width": 188,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.book.label",
+      "type": "TEXT",
+      "parent": "nav.book",
+      "name": "text/on_primary/nav.book.label",
+      "text": "Đặt lịch thử",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "hero",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "img/hero",
+      "layout": {
+        "x": 0,
+        "y": 96,
+        "width": 1440,
+        "height": 960,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-campaign-v1"
+      ]
+    },
+    {
+      "semantic_id": "hero.kicker",
+      "type": "TEXT",
+      "parent": "hero",
+      "name": "text/text/hero.kicker",
+      "text": "ÁO DÀI ĐƯƠNG ĐẠI",
+      "layout": {
+        "x": 96,
+        "y": 176
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "hero.title",
+      "type": "TEXT",
+      "parent": "hero",
+      "name": "text/text/hero.title",
+      "text": "Nét Việt.\nDáng hôm nay.",
+      "layout": {
+        "x": 96,
+        "y": 232
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 64,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "hero.body",
+      "type": "TEXT",
+      "parent": "hero",
+      "name": "text/text/hero.body",
+      "text": "Giữ tinh thần Việt trong dáng áo đương đại,\ndành cho những người phụ nữ hôm nay.",
+      "layout": {
+        "x": 96,
+        "y": 416
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "hero.explore",
+      "type": "FRAME",
+      "parent": "hero",
+      "name": "layout/hero.explore",
+      "layout": {
+        "x": 96,
+        "y": 496,
+        "width": 256,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.cta"
+      ],
+      "style": {
+        "fill": "cta",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "SCROLL_TO",
+          "destinationId": "69:223",
+          "transition": "SCROLL_ANIMATE",
+          "duration": 0.4
+        }
+      }
+    },
+    {
+      "semantic_id": "hero.explore.label",
+      "type": "TEXT",
+      "parent": "hero.explore",
+      "name": "text/on_primary/hero.explore.label",
+      "text": "Khám phá bộ sưu tập",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "hero.book",
+      "type": "FRAME",
+      "parent": "hero",
+      "name": "layout/hero.book",
+      "layout": {
+        "x": 376,
+        "y": 496,
+        "width": 192,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.surface"
+      ],
+      "style": {
+        "fill": "surface",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "hero.book.label",
+      "type": "TEXT",
+      "parent": "hero.book",
+      "name": "text/text/hero.book.label",
+      "text": "Đặt lịch thử",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "collection",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/collection",
+      "layout": {
+        "x": 0,
+        "y": 1056,
+        "width": 1440,
+        "height": 960,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "collection.kicker",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/muted/collection.kicker",
+      "text": "VỀ NÉT",
+      "layout": {
+        "x": 72,
+        "y": 48
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.title",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/text/collection.title",
+      "text": "Dáng Việt",
+      "layout": {
+        "x": 72,
+        "y": 88
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.body",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/text/collection.body",
+      "text": "Áo dài là một phần văn hóa sống trong nhịp sống hôm nay.\nNÉT gìn giữ tinh thần Việt qua phom dáng tinh giản,\nchất liệu chọn lọc và những chi tiết đầy dụng ý.",
+      "layout": {
+        "x": 648,
+        "y": 64
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.photo",
+      "type": "FRAME",
+      "parent": "collection",
+      "name": "img/collection.photo",
+      "layout": {
+        "x": 72,
+        "y": 200,
+        "width": 640,
+        "height": 696,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-sage-v1"
+      ]
+    },
+    {
+      "semantic_id": "collection.detail",
+      "type": "FRAME",
+      "parent": "collection",
+      "name": "img/collection.detail",
+      "layout": {
+        "x": 760,
+        "y": 200,
+        "width": 608,
+        "height": 384,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-silk-texture-v1"
+      ]
+    },
+    {
+      "semantic_id": "collection.detail.title",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/text/collection.detail.title",
+      "text": "Thanh lịch\ntrong từng chi tiết.",
+      "layout": {
+        "x": 760,
+        "y": 616
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.detail.body",
+      "type": "TEXT",
+      "parent": "collection",
+      "name": "text/text/collection.detail.body",
+      "text": "Những đường may tỉ mỉ, phom dáng vừa vặn,\ntôn lên vẻ đẹp tự nhiên của người phụ nữ Việt.",
+      "layout": {
+        "x": 760,
+        "y": 728
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "collection.explore",
+      "type": "FRAME",
+      "parent": "collection",
+      "name": "layout/collection.explore",
+      "layout": {
+        "x": 760,
+        "y": 808,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:286",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "collection.explore.label",
+      "type": "TEXT",
+      "parent": "collection.explore",
+      "name": "text/text/collection.explore.label",
+      "text": "Khám phá Dáng Việt",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "features",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/features",
+      "layout": {
+        "x": 0,
+        "y": 2016,
+        "width": 1440,
+        "height": 240,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "feature.0.title",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/feature.0.title",
+      "text": "Phom dáng",
+      "layout": {
+        "x": 72,
+        "y": 48
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "feature.0.body",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/feature.0.body",
+      "text": "Tôn dáng người Việt,\nthoải mái trong từng chuyển động.",
+      "layout": {
+        "x": 72,
+        "y": 96
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "feature.1.title",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/feature.1.title",
+      "text": "Chất liệu",
+      "layout": {
+        "x": 504,
+        "y": 48
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "feature.1.body",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/feature.1.body",
+      "text": "Lụa và vải tự nhiên,\nmềm mại, thoáng nhẹ.",
+      "layout": {
+        "x": 504,
+        "y": 96
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "feature.2.title",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/feature.2.title",
+      "text": "Chi tiết",
+      "layout": {
+        "x": 936,
+        "y": 48
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "feature.2.body",
+      "type": "TEXT",
+      "parent": "features",
+      "name": "text/text/feature.2.body",
+      "text": "Tối giản mà tinh tế,\nlàm nên dấu ấn riêng.",
+      "layout": {
+        "x": 936,
+        "y": 96
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "material",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/material",
+      "layout": {
+        "x": 0,
+        "y": 2256,
+        "width": 1440,
+        "height": 560,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "material.photo",
+      "type": "FRAME",
+      "parent": "material",
+      "name": "img/material.photo",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 816,
+        "height": 560,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-silk-texture-v1"
+      ]
+    },
+    {
+      "semantic_id": "material.kicker",
+      "type": "TEXT",
+      "parent": "material",
+      "name": "text/muted/material.kicker",
+      "text": "CHẤT LIỆU",
+      "layout": {
+        "x": 872,
+        "y": 72
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "material.title",
+      "type": "TEXT",
+      "parent": "material",
+      "name": "text/text/material.title",
+      "text": "Chạm vào\nchất Việt.",
+      "layout": {
+        "x": 872,
+        "y": 128
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "material.body",
+      "type": "TEXT",
+      "parent": "material",
+      "name": "text/text/material.body",
+      "text": "Chọn chất liệu tự nhiên với cảm giác\nmềm mại, thoáng nhẹ và vẻ đẹp bền lâu.\nTư vấn chất liệu theo dịp mặc của bạn.",
+      "layout": {
+        "x": 872,
+        "y": 296
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "colors",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/colors",
+      "layout": {
+        "x": 0,
+        "y": 2816,
+        "width": 1440,
+        "height": 288,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "colors.kicker",
+      "type": "TEXT",
+      "parent": "colors",
+      "name": "text/muted/colors.kicker",
+      "text": "BẢNG MÀU",
+      "layout": {
+        "x": 72,
+        "y": 48
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "colors.title",
+      "type": "TEXT",
+      "parent": "colors",
+      "name": "text/text/colors.title",
+      "text": "Những sắc màu\ncủa nét Việt.",
+      "layout": {
+        "x": 72,
+        "y": 88
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "color.ivory",
+      "type": "FRAME",
+      "parent": "colors",
+      "name": "layout/color.ivory",
+      "layout": {
+        "x": 712,
+        "y": 104,
+        "width": 188,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary"
+      }
+    },
+    {
+      "semantic_id": "color.ivory.label",
+      "type": "TEXT",
+      "parent": "color.ivory",
+      "name": "text/on_primary/color.ivory.label",
+      "text": "Trắng ngà · Chọn",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "color.sage",
+      "type": "FRAME",
+      "parent": "colors",
+      "name": "layout/color.sage",
+      "layout": {
+        "x": 920,
+        "y": 104,
+        "width": 188,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      }
+    },
+    {
+      "semantic_id": "color.sage.label",
+      "type": "TEXT",
+      "parent": "color.sage",
+      "name": "text/text/color.sage.label",
+      "text": "Xanh ngọc",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "color.blush",
+      "type": "FRAME",
+      "parent": "colors",
+      "name": "layout/color.blush",
+      "layout": {
+        "x": 1128,
+        "y": 104,
+        "width": 188,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary"
+      }
+    },
+    {
+      "semantic_id": "color.blush.label",
+      "type": "TEXT",
+      "parent": "color.blush",
+      "name": "text/text/color.blush.label",
+      "text": "Hồng phấn",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "products",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/products",
+      "layout": {
+        "x": 0,
+        "y": 3104,
+        "width": 1440,
+        "height": 784,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "products.kicker",
+      "type": "TEXT",
+      "parent": "products",
+      "name": "text/muted/products.kicker",
+      "text": "BỘ SƯU TẬP NỔI BẬT",
+      "layout": {
+        "x": 72,
+        "y": 40
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "products.title",
+      "type": "TEXT",
+      "parent": "products",
+      "name": "text/text/products.title",
+      "text": "Dáng áo, muôn sắc.",
+      "layout": {
+        "x": 72,
+        "y": 88
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.0",
+      "type": "FRAME",
+      "parent": "products",
+      "name": "layout/product.0",
+      "layout": {
+        "x": 72,
+        "y": 184,
+        "width": 312,
+        "height": 560,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:286",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "product.0.photo",
+      "type": "FRAME",
+      "parent": "product.0",
+      "name": "img/product.0.photo",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 432,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-sage-v1"
+      ]
+    },
+    {
+      "semantic_id": "product.0.title",
+      "type": "TEXT",
+      "parent": "product.0",
+      "name": "text/text/product.0.title",
+      "text": "An Nhiên",
+      "layout": {
+        "x": 0,
+        "y": 452
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.0.price",
+      "type": "TEXT",
+      "parent": "product.0",
+      "name": "text/text/product.0.price",
+      "text": "2.490.000 đ",
+      "layout": {
+        "x": 0,
+        "y": 492
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.0.color",
+      "type": "TEXT",
+      "parent": "product.0",
+      "name": "text/muted/product.0.color",
+      "text": "Trắng ngà / Xanh ngọc",
+      "layout": {
+        "x": 0,
+        "y": 524
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.1",
+      "type": "FRAME",
+      "parent": "products",
+      "name": "layout/product.1",
+      "layout": {
+        "x": 400,
+        "y": 184,
+        "width": 312,
+        "height": 560,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "product.1.photo",
+      "type": "FRAME",
+      "parent": "product.1",
+      "name": "img/product.1.photo",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 432,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-blush-v1"
+      ]
+    },
+    {
+      "semantic_id": "product.1.title",
+      "type": "TEXT",
+      "parent": "product.1",
+      "name": "text/text/product.1.title",
+      "text": "Ngọc Sương",
+      "layout": {
+        "x": 0,
+        "y": 452
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.1.price",
+      "type": "TEXT",
+      "parent": "product.1",
+      "name": "text/text/product.1.price",
+      "text": "3.290.000 đ",
+      "layout": {
+        "x": 0,
+        "y": 492
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.1.color",
+      "type": "TEXT",
+      "parent": "product.1",
+      "name": "text/muted/product.1.color",
+      "text": "Hồng phấn / Ngọc trai",
+      "layout": {
+        "x": 0,
+        "y": 524
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.2",
+      "type": "FRAME",
+      "parent": "products",
+      "name": "layout/product.2",
+      "layout": {
+        "x": 728,
+        "y": 184,
+        "width": 312,
+        "height": 560,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "product.2.photo",
+      "type": "FRAME",
+      "parent": "product.2",
+      "name": "img/product.2.photo",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 432,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-linen-v1"
+      ]
+    },
+    {
+      "semantic_id": "product.2.title",
+      "type": "TEXT",
+      "parent": "product.2",
+      "name": "text/text/product.2.title",
+      "text": "Hạ Miên",
+      "layout": {
+        "x": 0,
+        "y": 452
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.2.price",
+      "type": "TEXT",
+      "parent": "product.2",
+      "name": "text/text/product.2.price",
+      "text": "1.890.000 đ",
+      "layout": {
+        "x": 0,
+        "y": 492
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.2.color",
+      "type": "TEXT",
+      "parent": "product.2",
+      "name": "text/muted/product.2.color",
+      "text": "Cát / Xanh nhạt",
+      "layout": {
+        "x": 0,
+        "y": 524
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.3",
+      "type": "FRAME",
+      "parent": "products",
+      "name": "layout/product.3",
+      "layout": {
+        "x": 1056,
+        "y": 184,
+        "width": 312,
+        "height": 560,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "product.3.photo",
+      "type": "FRAME",
+      "parent": "product.3",
+      "name": "img/product.3.photo",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 432,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-wine-v1"
+      ]
+    },
+    {
+      "semantic_id": "product.3.title",
+      "type": "TEXT",
+      "parent": "product.3",
+      "name": "text/text/product.3.title",
+      "text": "Diễm Châu",
+      "layout": {
+        "x": 0,
+        "y": 452
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.3.price",
+      "type": "TEXT",
+      "parent": "product.3",
+      "name": "text/text/product.3.price",
+      "text": "4.590.000 đ",
+      "layout": {
+        "x": 0,
+        "y": 492
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "product.3.color",
+      "type": "TEXT",
+      "parent": "product.3",
+      "name": "text/muted/product.3.color",
+      "text": "Đỏ rượu / Champagne",
+      "layout": {
+        "x": 0,
+        "y": 524
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/booking",
+      "layout": {
+        "x": 0,
+        "y": 3888,
+        "width": 1440,
+        "height": 352,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary"
+      }
+    },
+    {
+      "semantic_id": "booking.title",
+      "type": "TEXT",
+      "parent": "booking",
+      "name": "text/on_primary/booking.title",
+      "text": "Một cuộc hẹn.\nMột dáng riêng.",
+      "layout": {
+        "x": 72,
+        "y": 64
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking.body",
+      "type": "TEXT",
+      "parent": "booking",
+      "name": "text/on_primary/booking.body",
+      "text": "Khám phá phom dáng và chất liệu cùng NÉT.\nĐặt lịch thử để tìm dáng áo phù hợp với bạn.",
+      "layout": {
+        "x": 792,
+        "y": 72
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "booking.cta",
+      "type": "FRAME",
+      "parent": "booking",
+      "name": "layout/booking.cta",
+      "layout": {
+        "x": 792,
+        "y": 176,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.surface"
+      ],
+      "style": {
+        "fill": "surface",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "booking.cta.label",
+      "type": "TEXT",
+      "parent": "booking.cta",
+      "name": "text/text/booking.cta.label",
+      "text": "Đặt lịch tư vấn",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "footer",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/footer",
+      "layout": {
+        "x": 0,
+        "y": 4240,
+        "width": 1440,
+        "height": 192,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      }
+    },
+    {
+      "semantic_id": "footer.brand",
+      "type": "TEXT",
+      "parent": "footer",
+      "name": "text/text/footer.brand",
+      "text": "NÉT",
+      "layout": {
+        "x": 72,
+        "y": 40
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "footer.links",
+      "type": "TEXT",
+      "parent": "footer",
+      "name": "text/text/footer.links",
+      "text": "Bộ sưu tập    Áo dài    Câu chuyện",
+      "layout": {
+        "x": 456,
+        "y": 48
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "footer.demo",
+      "type": "TEXT",
+      "parent": "footer",
+      "name": "text/muted/footer.demo",
+      "text": "Bản thử nghiệm · Ảnh AI minh họa · Không gửi dữ liệu thật",
+      "layout": {
+        "x": 72,
+        "y": 112
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    }
+  ]
+}

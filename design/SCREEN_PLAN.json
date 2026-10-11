@@ -1,0 +1,204 @@
+{
+  "screens": [
+    {
+      "id": "S01",
+      "name": "S01 Trang chủ — Desktop",
+      "priority": "P0",
+      "ref": "1",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S02",
+      "name": "S02 Bộ sưu tập — Desktop",
+      "priority": "P0",
+      "ref": "2",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S03",
+      "name": "S03 Danh sách áo dài — Desktop",
+      "priority": "P0",
+      "ref": "3",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S04",
+      "name": "S04 Chi tiết áo dài — Desktop",
+      "priority": "P0",
+      "ref": "4",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S05",
+      "name": "S05 Tư vấn và đặt lịch — Desktop",
+      "priority": "P0",
+      "ref": "5",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S06",
+      "name": "S06 Đã nhận yêu cầu — Desktop",
+      "priority": "P0",
+      "ref": "5",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S07",
+      "name": "S07 Trang chủ — Mobile",
+      "priority": "P0",
+      "ref": "1",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S08",
+      "name": "S08 Bộ sưu tập — Mobile",
+      "priority": "P0",
+      "ref": "2",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S09",
+      "name": "S09 Danh sách áo dài — Mobile",
+      "priority": "P0",
+      "ref": "3",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S10",
+      "name": "S10 Chi tiết áo dài — Mobile",
+      "priority": "P0",
+      "ref": "4",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S11",
+      "name": "S11 Tư vấn và đặt lịch — Mobile",
+      "priority": "P0",
+      "ref": "5",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S12",
+      "name": "S12 Đã nhận yêu cầu — Mobile",
+      "priority": "P0",
+      "ref": "5",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S13",
+      "name": "S13 Trang chủ — Tablet",
+      "priority": "P0",
+      "ref": "1",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S14",
+      "name": "S14 Bộ sưu tập — Tablet",
+      "priority": "P0",
+      "ref": "2",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S15",
+      "name": "S15 Danh sách áo dài — Tablet",
+      "priority": "P0",
+      "ref": "3",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S16",
+      "name": "S16 Chi tiết áo dài — Tablet",
+      "priority": "P0",
+      "ref": "4",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S17",
+      "name": "S17 Tư vấn và đặt lịch — Tablet",
+      "priority": "P0",
+      "ref": "5",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S18",
+      "name": "S18 Đã nhận yêu cầu — Tablet",
+      "priority": "P0",
+      "ref": "5",
+      "states": "default",
+      "parts": "Header, nội dung, CTA, Footer"
+    },
+    {
+      "id": "S19",
+      "name": "S19 Menu mobile",
+      "priority": "P0",
+      "ref": "1",
+      "states": "open",
+      "parts": "Điều hướng, Đóng"
+    },
+    {
+      "id": "S20",
+      "name": "S20 Gallery ảnh",
+      "priority": "P0",
+      "ref": "4",
+      "states": "open",
+      "parts": "Ảnh placeholder, Trước/Sau, Đóng"
+    },
+    {
+      "id": "S21",
+      "name": "S21 Bảng size",
+      "priority": "P0",
+      "ref": "4",
+      "states": "open",
+      "parts": "Bảng demo, Cần tư vấn size, Đóng"
+    },
+    {
+      "id": "S22",
+      "name": "S22 States bộ sưu tập và danh sách",
+      "priority": "P0",
+      "ref": "2,3",
+      "states": "loading, empty, error",
+      "parts": "Skeleton; Không kết quả/Xóa bộ lọc; Lỗi/Thử lại"
+    },
+    {
+      "id": "S23",
+      "name": "S23 States chi tiết và gallery",
+      "priority": "P0",
+      "ref": "4",
+      "states": "loading, error, unavailable",
+      "parts": "Skeleton; Lỗi nội dung/ảnh; Size hết hàng/Hỏi về mẫu này"
+    },
+    {
+      "id": "S24",
+      "name": "S24 States trang chủ và xác nhận",
+      "priority": "P0",
+      "ref": "1,5",
+      "states": "loading, error",
+      "parts": "Skeleton, Lỗi nội dung/Thử lại"
+    },
+    {
+      "id": "S25",
+      "name": "S25 States form tư vấn",
+      "priority": "P0",
+      "ref": "5",
+      "states": "loading, error, invalid",
+      "parts": "Đang gửi; Lỗi trường; Gửi lỗi giữ dữ liệu"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.agent/
+.mcp.json
+.mcp.json.bak
+.codex/config.toml
+.codex/config.toml.bak
+__pycache__/
+*.pyc
+.superpowers/sdd/
+# Local Figma runtime connections, approval/evidence in design/ may contain user context

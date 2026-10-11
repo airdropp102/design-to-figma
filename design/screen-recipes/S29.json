@@ -1,0 +1,508 @@
+{
+  "screen_id": "S29",
+  "name": "S29 Fashion v2 — Chi tiết An Nhiên",
+  "root": {
+    "width": 1440,
+    "height": 900,
+    "x": 6400,
+    "y": 0,
+    "fill": "bg",
+    "layout": "NONE"
+  },
+  "nodes": [
+    {
+      "semantic_id": "header",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/header",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 96,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototypeViewport": {
+          "rootHeight": 900,
+          "overflowDirection": "VERTICAL",
+          "clipsContent": true
+        }
+      }
+    },
+    {
+      "semantic_id": "brand",
+      "type": "TEXT",
+      "parent": "header",
+      "name": "text/text/brand",
+      "text": "NÉT",
+      "layout": {
+        "x": 72,
+        "y": 28
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 32,
+        "fontWeight": 600
+      }
+    },
+    {
+      "semantic_id": "nav.collection",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.collection",
+      "layout": {
+        "x": 456,
+        "y": 22,
+        "width": 176,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:204",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.collection.label",
+      "type": "TEXT",
+      "parent": "nav.collection",
+      "name": "text/text/nav.collection.label",
+      "text": "Bộ sưu tập",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "nav.products",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.products",
+      "layout": {
+        "x": 648,
+        "y": 22,
+        "width": 112,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:204",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.products.label",
+      "type": "TEXT",
+      "parent": "nav.products",
+      "name": "text/text/nav.products.label",
+      "text": "Áo dài",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "nav.story",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.story",
+      "layout": {
+        "x": 768,
+        "y": 22,
+        "width": 176,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:204",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.story.label",
+      "type": "TEXT",
+      "parent": "nav.story",
+      "name": "text/text/nav.story.label",
+      "text": "Câu chuyện",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "nav.book",
+      "type": "FRAME",
+      "parent": "header",
+      "name": "layout/nav.book",
+      "layout": {
+        "x": 1180,
+        "y": 22,
+        "width": 188,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "nav.book.label",
+      "type": "TEXT",
+      "parent": "nav.book",
+      "name": "text/on_primary/nav.book.label",
+      "text": "Đặt lịch thử",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "detail.photo",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "img/detail.photo",
+      "layout": {
+        "x": 72,
+        "y": 128,
+        "width": 576,
+        "height": 832,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg"
+      },
+      "assets": [
+        "images:net-aodai-sage-v1"
+      ]
+    },
+    {
+      "semantic_id": "detail.kicker",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/muted/detail.kicker",
+      "text": "DÁNG VIỆT / AN NHIÊN",
+      "layout": {
+        "x": 728,
+        "y": 144
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "detail.title",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/detail.title",
+      "text": "An Nhiên",
+      "layout": {
+        "x": 728,
+        "y": 200
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 48,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "detail.price",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/detail.price",
+      "text": "2.490.000 đ",
+      "layout": {
+        "x": 728,
+        "y": 280
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 24,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "detail.description",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/detail.description",
+      "text": "Dáng áo dài thanh lịch trong nhịp sống hôm nay.\nChất liệu satin mềm mại. Ảnh AI minh họa.\nTư vấn kích thước và màu khi đặt lịch.",
+      "layout": {
+        "x": 728,
+        "y": 344
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    },
+    {
+      "semantic_id": "detail.color",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/text/detail.color",
+      "text": "Màu đang xem: Xanh ngọc",
+      "layout": {
+        "x": 728,
+        "y": 448
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "detail.size",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/detail.size",
+      "layout": {
+        "x": 728,
+        "y": 488,
+        "width": 248,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.secondary"
+      ],
+      "style": {
+        "fill": "secondary",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "81:2",
+          "transition": "DISSOLVE",
+          "duration": 0.2
+        }
+      }
+    },
+    {
+      "semantic_id": "detail.size.label",
+      "type": "TEXT",
+      "parent": "detail.size",
+      "name": "text/text/detail.size.label",
+      "text": "Xem 8 góc / đổi màu",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "detail.book",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/detail.book",
+      "layout": {
+        "x": 728,
+        "y": 584,
+        "width": 272,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.primary"
+      ],
+      "style": {
+        "fill": "primary",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "OVERLAY",
+          "destinationId": "69:310",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "detail.book.label",
+      "type": "TEXT",
+      "parent": "detail.book",
+      "name": "text/on_primary/detail.book.label",
+      "text": "Đặt lịch thử An Nhiên",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.on_primary",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "detail.back",
+      "type": "FRAME",
+      "parent": "root",
+      "name": "layout/detail.back",
+      "layout": {
+        "x": 728,
+        "y": 656,
+        "width": 272,
+        "height": 52,
+        "direction": "NONE"
+      },
+      "tokens": [
+        "colors.bg"
+      ],
+      "style": {
+        "fill": "bg",
+        "prototype": {
+          "trigger": "ON_CLICK",
+          "action": "NAVIGATE",
+          "destinationId": "69:204",
+          "transition": "DISSOLVE",
+          "duration": 0.3
+        }
+      }
+    },
+    {
+      "semantic_id": "detail.back.label",
+      "type": "TEXT",
+      "parent": "detail.back",
+      "name": "text/text/detail.back.label",
+      "text": "Quay lại trang chủ",
+      "layout": {
+        "x": 20,
+        "y": 16
+      },
+      "tokens": [
+        "colors.text",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 500
+      }
+    },
+    {
+      "semantic_id": "detail.demo",
+      "type": "TEXT",
+      "parent": "root",
+      "name": "text/muted/detail.demo",
+      "text": "Prototype minh họa, không mua hàng\nvà không ghi nhận lịch hẹn thật.",
+      "layout": {
+        "x": 728,
+        "y": 784
+      },
+      "tokens": [
+        "colors.muted",
+        "typography.family.ui"
+      ],
+      "style": {
+        "fontSize": 16,
+        "fontWeight": 400
+      }
+    }
+  ]
+}
